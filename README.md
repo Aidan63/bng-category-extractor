@@ -32,3 +32,7 @@ The program has the following two commands.
  * `cat-extractor txt-to-bin /path/to/categories.txt /path/to/store/ShipCategories.bin`
 
 ## Building
+
+This program is built with [haxe](https://haxe.org/) and has no dependencies on external libraries.
+
+To build the program run `haxe build-neko.hxml` or `haxe build-cpp.hxml`. The resulting program will be built in the `bin/neko` or `bin/cpp` folders depending on which build file was used.
